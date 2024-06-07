@@ -1,0 +1,113 @@
+@import "../../../vars.css" ;
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 73px;
+  margin-top: 129px;
+  max-width: 1200px;
+  border-bottom: 1px solid #4d3fb2;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.contact_img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+.title{
+    color: var(--color-text);
+    margin-bottom: 10px;
+    align-items: center;
+    font-size: 25px;
+    margin-left: 13%;
+}
+
+.Conatct_box {
+  width: 100%;
+  max-width: 500px;
+  margin-left: 20px;
+  background-color:#3cb2dc ;
+  border: 1px;
+  border-radius: 10px;
+}
+
+.contact_box_form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 10px;
+}
+
+.contact_box_form input,
+.contact_box_form textarea {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  font-size: 16px;
+  color: black;
+}
+
+.contact_box_form input:focus,
+.contact_box_form textarea:focus {
+  border-bottom-color: #010101;
+  outline: none;
+}
+
+.contact_box_form textarea {
+  resize: none;
+  height: 100px;
+  color: black;
+}
+
+.txttt{
+    margin-bottom: 10px;
+    align-items: center;
+    font-size: 25px;
+    margin-left: 13%;
+}
+.contact_box_form button {
+  padding: 10px 20px;
+  background-color: #4dae50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 90%;
+  text-transform: capitalize;
+}
+
+.contact_box_form button:hover {
+  background-color: #28902d;
+}
+
+.contact_box_form button:focus {
+  outline: none;
+  box-shadow: 0 0 3px 2px rgba(72, 187, 120, 0.6);
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Conatct_box {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}

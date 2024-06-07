@@ -1,0 +1,49 @@
+[
+  {
+    "title": "gamified platform ",
+    "imageSrc": "projects/gamification.png",
+    "description": "This is a project made to learn the child rights under age 16 years ",
+    "skills": ["html/css", "javascript", "PHP" , "SQL"],
+    "demo": "",
+    "source": "https://github.com/amit-23-hub/gamified_platform_for_childrights"
+  },
+  {
+    "title": "social media platform ",
+    "imageSrc": "projects/social.png",
+    "description": "social media platform which have live chat,post photo/videos",
+    "skills": ["React", "Express", "Node", "mongo"],
+    "demo": "https://indigle.vercel.app/auth",
+    "source": "https://github.com/amit-23-hub/my-webApp"
+  },
+  {
+    "title": "e-commerce ",
+    "imageSrc": "projects/ecommerce.png",
+    "description": "This is a project is facilates the ecommerce for selling flowers .",
+    "skills": ["html/css", "bootstrap", "javascript"],
+    "demo": "https://flowerquipo-by-amit-sahani.netlify.app/",
+    "source": "https://github.com/amit-23-hub/flower_ecommerce"
+  },
+  {"title": "WebArt",
+    "imageSrc": "projects/UxUi_designed.png",
+    "description": "UI/UX  design that possessed with very attractive UI interface.",
+    "skills": ["html/css", "bootstrap", "javascript"],
+    "demo": "",
+    "source": ""
+  }
+  ,
+  {"title": "Financial related services ",
+  "imageSrc": "projects/financial.png",
+  "description": "This is a project is about financial related services.",
+  "skills": ["html/css", "bootstrap", "javascript"],
+  "demo": "https://resilient-banoffee-19a35b.netlify.app/",
+  "source": "https://github.com/amit-23-hub/banking-ui"
+},
+{"title": "Netflix ",
+"imageSrc": "projects/netflix.png",
+"description": "This is a Netflix clone",
+"skills": ["html/css", "bootstrap", "javascript"],
+"demo": " ",
+"source": "https://github.com/amit-23-hub/Netflix_clone_for-octanet-"
+}
+
+]
