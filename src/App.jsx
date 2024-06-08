@@ -5,7 +5,6 @@ import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Navbar/Hero/Hero'
 import About from './components/Navbar/About/About'
 import Contact from './components/Navbar/contactUs/contactUs'
-import { Projects } from './components/Navbar/Projects/Projects'
 
 import Services from './components/Navbar/services/Services'
 import Collections from './components/Navbar/collection/collection'

@@ -100,7 +100,6 @@ const Myteam = () => {
             <div className="team-item">
               <img
                 src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?cs=srgb&dl=pexels-simon-robben-55958-614810.jpg&fm=jpg"
-
                 className="team-img"
                 alt="pic"
                 style={{ width: '500px', height: '145px' }}

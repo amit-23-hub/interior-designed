@@ -25,7 +25,7 @@ const Services = () => {
     },
   ];
   return (
-    <> <h2 className="title-main" style={{alignItems : "center" ,
+    < div id="services">  <h2 className="title-main" style={{alignItems : "center" ,
     marginTop : "30px"
     }}>services</h2>
     <div className="services-container">
@@ -36,10 +36,10 @@ const Services = () => {
           className="service-item"
         >
           <service.icon
-            color="black"
-            font-weights ={"600"}
-            width={"50px"}
-            height={"50px"}
+             color="#383737"
+              width="50px"
+              height="50px"
+              style={{ fontWeight: 600 }}
           />
           <span className="service-title">{service.title}</span>
           <p className="service-desc">{service.desc}</p>
@@ -52,7 +52,7 @@ const Services = () => {
         </div>
       ))}
     </div>
-    </>
+    </div>
   );
 };
 

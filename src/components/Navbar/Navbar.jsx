@@ -30,13 +30,13 @@ import { getImageUrl } from "../../utils";
             <a href="#about">About</a>
           </li>
           <li>
-            <a href="#Collections">collection</a>
+            <a href="#collections">collection</a>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <a href="#">Projects</a>
           </li>
           <li>
-            <a href="#contact">Contact</a>
+            <a href="#contactUs">Contact</a>
           </li>
           <li>
             <a href="#services">services</a>

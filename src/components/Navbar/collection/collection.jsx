@@ -29,7 +29,7 @@ const Collections = () => {
 		},
 	];
 	return (
-		<div className="collections-container">
+		<div className="collections-container" id='collections'>
 			{collectionItems.map((item, index) => (
 				<div
 					key={index}
